@@ -1,0 +1,18 @@
+{application, spread_boilerplate,
+ [{description, "An OTP application leveraging Spread"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { spread_boilerplate_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    lager,
+    spread
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
